@@ -47,6 +47,7 @@ class BasicTextParser(Parser):
 
 handler = handlers.HTMLRenderer()
 parser = BasicTextParser(handler)
-parser.parse(sys.stdin) 
+f = open(r'G:\Python学习\MarkInTime\source\listing20-1.txt')
+parser.parse(f)
 
 
